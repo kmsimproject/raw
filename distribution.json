@@ -12,8 +12,8 @@
     "servers": [
         {
             "id": "Jurun Client 1.12.2",
-            "name": "Jurun Client 1.12.2",
-            "description": "저런 클라이언트의 1.12.2 버전입니다!",
+            "name": "Jurun Client 1.12.2 (with 저런 국가전쟁)",
+            "description": "저런 클라이언트의 1.12.2 버전입니다! (위 클라이언트를 실행시 저런 국가전쟁으로 이동됩니다.)",
             "icon": "http://mc.westeroscraft.com/WesterosCraftLauncher/files/server-test.png",
             "version": "4.2.1",
             "address": "",
@@ -237,6 +237,19 @@
                             }
                         }
                     ]
+                },
+                {
+                    "id": "sk1er:keystokersmod:1.12.2-7.0",
+                    "name": "keystrokesmod",
+                    "type": "ForgeMod",
+                    "required": {
+                        "value": false
+                    },
+                    "artifact": {
+                        "size": 1831161,
+                        "MD5": "d3b5a672d2393f9fe63903598d50c769",
+                        "url": "https://static.sk1er.club/repo/mods/keystrokesmod/7.0/1.12.2/Keystrokes-7.0%20(1.12.2).jar"
+                    }
                 },
                 {
                     "id": "options.txt",
